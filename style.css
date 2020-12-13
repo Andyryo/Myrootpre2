@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-/* ‘S‘Ì */
-/* c‚ª1568px(b’è) */
+/* å…¨ä½“ */
+/* ç¸¦ãŒ1568px(æš«å®š) */
 
 
 
-/* ƒwƒbƒ_[ */
+/* ãƒ˜ãƒƒãƒ€ãƒ¼ */
 .wrap{
     position: relative;
     width: 100%;
@@ -21,8 +21,8 @@
 }
 
 .nextpic{
-    width: 20vw;
-    height: 8vh;
+    width: 20%;
+    height: 8%;
 }
 
 .next1 {
@@ -44,7 +44,7 @@
 }
 
 
-/* ƒƒCƒ“ */
+/* ãƒ¡ã‚¤ãƒ³ */
 /*
 .main-content{
     width: 960px;
