@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/* ëSëÃ */
+/* ècÇ™1568px(ébíË) */
+
+
+
+/* ÉwÉbÉ_Å[ */
+.wrap{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(Background_top.jpg) center / cover;
+}
+
+.Rogo{
+    position: relative;
+    width: 50%;
+    left: 25%;
+    top: 25vh;
+}
+
+
+.next1 {
+    position: relative;
+    left: 100px;
+    bottom: 42px;
+    width: 180px;  
+    height: 42px; 
+}
+
+.next2{
+    position: relative;
+    left: 380px;
+    bottom: 84px; 
+    width: 180px; 
+    height: 42px; 
+}
+
+.next3{
+    position: relative;
+    left: 660px;
+    bottom: 126px;
+    width: 180px;
+    height: 42px;
+}
+
+
+/* ÉÅÉCÉì */
+/*
+.main-content{
+    width: 960px;
+    background-color: rgb(236, 202, 5);
+    position: relative;
+    bottom: 126px;
+}
+
+.section-header{
+    margin-bottom: 40px;
+}
+
+.section-header img{
+    position: relative;
+    top: 40px;
+    left: 40px;
+    width: 880px;
+    height: 496px;
+}
+
+.photo-work1 img{
+    position: relative;
+    left :40px;
+    top: 40px;
+    width: 280px;
+    height: 280px;
+}
+
+.photo-work__text{
+    position: relative;
+    left: 360px;
+    bottom: 240px;
+    width: 559px;
+    height: 280px;
+}*/
