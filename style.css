@@ -20,29 +20,27 @@
     top: 25vh;
 }
 
+.nextpic{
+    width: 20vw;
+    height: 8vh;
+}
 
 .next1 {
-    position: relative;
-    left: 100px;
-    bottom: 42px;
-    width: 180px;  
-    height: 42px; 
+   position: relative;
+   top: 69vh;
+   left: 10vw;
 }
 
 .next2{
     position: relative;
-    left: 380px;
-    bottom: 84px; 
-    width: 180px; 
-    height: 42px; 
+    top: 61vh;
+    left: 40vw;
 }
 
 .next3{
     position: relative;
-    left: 660px;
-    bottom: 126px;
-    width: 180px;
-    height: 42px;
+    top: 53vh;
+    left: 70vw;
 }
 
 
