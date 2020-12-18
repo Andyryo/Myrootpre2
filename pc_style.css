@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
-/* ëSëÃ */
-/* ècÇ™1568px(ébíË) */
+/* ÂÖ®‰Ωì */
+/* Á∏¶„Åå1568px(Êö´ÂÆö) */
 
 html {
 	overflow: auto;
@@ -11,7 +11,7 @@ body {
 	min-width: 960px;
 }
 
-/* ÉwÉbÉ_Å[ */
+/* „Éò„ÉÉ„ÉÄ„Éº */
 .wrap{
     position: relative;
     width: 100%;
@@ -20,37 +20,53 @@ body {
 }
 
 .Rogo{
-    position: relative;
-    width: 50%;
-    left: 25%;
+    position: absolute;
+    width: 66%;
+    left: 17%;
     top: 25vh;
 }
 
-.nextpic{
-    width: 20%;
-    height: 8%;
+
+.maintext{
+    color: #fcfcfc;
+    font-size: 200%;
+    position: absolute;
+    left: 50%;
+    top: 55%;
 }
 
+
+
+.nextpic{
+    /* background: url(aikonn-1.png) no-repeat; */
+    /* background-size: 150%; */
+    width: 150%;
+}
+
+.next a:hover img {
+    opacity: 0.5;
+  }
+
 .next1 {
-   position: relative;
-   top: 68vh;
-   left: 10vw;
+   position: absolute;
+   top: 91%;
+   left: 10%;
 }
 
 .next2{
-    position: relative;
-    top: 61vh;
-    left: 40vw;
+    position: absolute;
+    top: 91%;
+    left: 40%;
 }
 
 .next3{
-    position: relative;
-    top: 53vh;
-    left: 70vw;
+    position: absolute;
+    top: 91%;
+    left: 70%;
 }
 
 
-/* ÉÅÉCÉì */
+/* „É°„Ç§„É≥ */
 /*
 .main-content{
     width: 960px;
