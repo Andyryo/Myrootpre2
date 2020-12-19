@@ -23,12 +23,9 @@ body {
 }
 }
 
-@media screen and (min-width:426px){
+@media screen and (min-width:450px){
     .wrap{
-        position: relative;
-        width:100%;
         min-height:140vh;
-        background: url(mb_background.jpg) center / cover;
     }
 }
 
