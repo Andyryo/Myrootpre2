@@ -13,7 +13,7 @@ body {
 }
 
 /* ƒwƒbƒ_[ */
-@media screen and (min-width:425px){
+@media screen and (min-width:0px){
 .wrap{
     position: relative;
     width: 100%;
@@ -23,7 +23,7 @@ body {
 }
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-width:426px){
     .wrap{
         position: relative;
         width:100%;
