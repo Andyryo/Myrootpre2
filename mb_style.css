@@ -15,8 +15,8 @@ body {
 .wrap{
     position: relative;
     width: 100%;
-    min-height: 100vh;
-    max-height: 500vh;
+    min-height: 140vh;
+    max-height: 100vh;
     background: url(mb_background.jpg) center / cover;
 }
 
