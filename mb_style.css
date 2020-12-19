@@ -13,12 +13,23 @@ body {
 }
 
 /* ÉwÉbÉ_Å[ */
+@media screen and (max-width:425px){
 .wrap{
     position: relative;
     width: 100%;
     min-height: 100vh; 
     /* max-height: 140vh; */
     background: url(mb_background.jpg) center / cover;
+}
+}
+
+@media screen and (max-width:768px){
+    .wrap{
+        position: relative;
+        width:100%;
+        min-height:140vh;
+        background: url(mb_background.jpg) center / cover;
+    }
 }
 
 .mb_rogo{
