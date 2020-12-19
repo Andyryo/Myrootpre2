@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--IE=edgeに対応-->
         <meta name="viewport" content="width=device-width,initial-scale=1" /><!--viewport險ｭ�ｿｽ?-->
         <title>My roots</title><!--タイトル-->
-        
+
         <meta property="og:url" content="URL" />
         <meta property="og:title" content="My roots" />
         <meta property="og:type" content="My roots">
@@ -27,6 +27,14 @@
         <link rel="stylesheet" media="screen and (max-width:768px)" href="mb_style.css">
         <link rel="stylesheet" media="screen and (min-width:769px)" href="pc_style.css">
         <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript">
+        var h = document.getElementsByTagName("html");
+        function scale(){
+            w = window.innerWidth/329;
+            h[0].style.zoom = w*100+"%";
+            h[0].style.fontSize=w*12+"px";
+        }
+        </script>
         
     </head>
 
@@ -36,7 +44,7 @@
                 <h1 class="main">My roots</h1>
                 <!-- <div class="pc_rogo"></div> -->
                 <!-- <div class="mb_rogo"></div> -->
-                <img class="mb_rogo" id="mb_rogo" src="mb_Rogo.png" alt="Rogo"/> 
+                <img class="mb_rogo" id="mb_rogo" src="mb_Rogo.png" alt="Rogo"/>
                 <img class="pc_rogo" id="pc_rogo" src="Rogo_white.png" alt="Rogo"/>
                 <div class="maintext">
                 <p>じぶんは様々な物からできている。<br>例えば、バイクで山道を走る爽快感<br>例えば、釣り竿がしなる快感<br>例えば、焚火を眺めるひととき<br>そんな趣味も自分を作る「ルーツ」の1つだ。<br>今こそ新しい自分を探す旅に出かけよう。</p>
@@ -56,6 +64,7 @@
 
             <!-- <script src="js/pc_style.js"></script> -->
         </header>
+        
         <!-- メイン--> 
         <!-- <main class="main-content common-inner"> 
             <header class="section-header">
