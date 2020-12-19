@@ -1,22 +1,23 @@
 @charset "UTF-8";
 
-/* â€˜Sâ€˜ÃŒ */
-/* Âcâ€šÂª2411px(Å½bâ€™Ã¨) */
+/* ‘S‘Ì */
+/* c‚ª2411px(b’è) */
 
 html {
 	overflow: auto;
 }
 body {
 	overflow: hidden;
-	min-width: 369px;
+    min-width: 369px;
+    background-color: blue;
 }
 
-/* Æ’wÆ’bÆ’_Â[ */
+/* ƒwƒbƒ_[ */
 .wrap{
     position: relative;
     width: 100%;
-    /*min-height: 100vh;*/
-    max-height: 150vh;
+    min-height: 100vh; 
+    /* max-height: 140vh; */
     background: url(mb_background.jpg) center / cover;
 }
 
