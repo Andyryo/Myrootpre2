@@ -16,7 +16,7 @@ body {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    max-height: 140vh;
+    max-height: 160vh;
     background: url(mb_background.jpg) center / cover;
 }
 
