@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
-/* ‘S‘Ì */
-/* c‚ª2411px(b’è) */
+/* â€˜Sâ€˜ÃŒ */
+/* Âcâ€šÂª2411px(Å½bâ€™Ã¨) */
 
 html {
 	overflow: auto;
@@ -12,8 +12,8 @@ body {
     /* background-color: blue; */
 }
 
-/* ƒwƒbƒ_[ */
-@media screen and (max-width:425px){
+/* Æ’wÆ’bÆ’_Â[ */
+@media screen and (min-width:425px){
 .wrap{
     position: relative;
     width: 100%;
