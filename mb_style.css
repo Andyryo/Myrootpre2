@@ -39,17 +39,17 @@ body {
 .next1 {
   position: absolute;
   top: 93%;
-  left: 5%;
+  left: 1%;
 }
 
 .next2{
    position: absolute;
    top: 93%;
-   left: 40%;
+   left: 35%;
 }
 
 .next3{
    position: absolute;
    top: 93%;
-   left: 85%;
+   right: -9%;
 }
