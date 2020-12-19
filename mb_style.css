@@ -1,3 +1,8 @@
+@charset "UTF-8";
+
+/* ëSëÃ */
+/* ècÇ™2411px(ébíË) */
+
 html {
 	overflow: auto;
 }
@@ -11,12 +16,40 @@ body {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: url(Background_top.jpg) center / cover;
+    background: url(mb_background.jpg) center / cover;
 }
 
-.Rogo{
-    position: relative;
-    width: 50%;
-    left: 25%;
-    top: 25vh;
+.mb_rogo{
+    position: absolute;
+    width: 100%;
+    top: 14.51%;
+}
+.pc_rogo{
+    display: none;
+}
+
+.nextpic{
+    width: 70%;
+}
+
+.next a:hover img { 
+   opacity: 0.5;
+ }
+
+.next1 {
+  position: absolute;
+  top: 93%;
+  left: 5%;
+}
+
+.next2{
+   position: absolute;
+   top: 93%;
+   left: 40%;
+}
+
+.next3{
+   position: absolute;
+   top: 93%;
+   left: 85%;
 }

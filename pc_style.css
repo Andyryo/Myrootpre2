@@ -19,11 +19,15 @@ body {
     background: url(Background_top.jpg) center / cover;
 }
 
-.Rogo{
+.mb_rogo{
+    display: none;
+}
+
+.pc_rogo{
     position: absolute;
     width: 66%;
     left: 17%;
-    top: 25vh;
+    top: 25%;
 }
 
 
@@ -38,9 +42,7 @@ body {
 
 
 .nextpic{
-    /* background: url(aikonn-1.png) no-repeat; */
-    /* background-size: 150%; */
-    width: 150%;
+     width: 150%;
 }
 
 .next a:hover img {
@@ -102,3 +104,4 @@ body {
     width: 559px;
     height: 280px;
 }*/
+

@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta content="text/html; charset=UTF-8"> <!--�ｿｽ?蟄暦ｿｽ?�ｿｽ繧ｨ繝ｳ繧ｳ繝ｼ�ｿｽ?-->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--IE=edge縺ｮ險ｭ�ｿｽ?-->
+        <meta content="text/html; charset=UTF-8"> <!--文字コード-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--IE=edgeに対応-->
         <meta name="viewport" content="width=device-width,initial-scale=1" /><!--viewport險ｭ�ｿｽ?-->
-        <title>My roots</title><!--繧ｿ繧､繝医Ν-->
-        <!--OGP繧ｿ繧ｰ/Twitter繧ｫ繝ｼ�ｿｽ?-->
-        <meta property="og:url" content="繝壹�ｼ繧ｸ縺ｮURL" />
-        <meta property="og:title" content="繝壹�ｼ繧ｸ縺ｮ繧ｿ繧､繝医Ν" />
-        <meta property="og:type" content="繝壹�ｼ繧ｸ縺ｮ繧ｿ繧､繝医Ν">
-        <meta property="og:description" content="險倅ｺ具ｿｽ?�ｿｽ謚懶ｿｽ?" />
-        <meta property="og:image" content="逕ｻ蜒擾ｿｽ?�ｿｽURL" />
-        <meta name="twitter:card" content="繧ｫ繝ｼ繝臥ｨｮ�ｿｽ?" />
-        <meta name="twitter:site" content="@Twitter繝ｦ繝ｼ繧ｶ繝ｼ蜷�" />
-        <meta property="og:site_name" content="繧ｵ繧､繝亥錐" />
-        <meta property="fb:app_id" content="appleID繧抵ｿｽ?�ｿｽ�ｿｽ?" />
+        <title>My roots</title><!--タイトル-->
+        
+        <meta property="og:url" content="URL" />
+        <meta property="og:title" content="My roots" />
+        <meta property="og:type" content="My roots">
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="" />
+        <meta name="twitter:card" content="" />
+        <meta name="twitter:site" content="Twitterアカウント" />
+        <meta property="og:site_name" content="My roots" />
+        <meta property="fb:app_id" content="appleID" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         
         <!--繧ｹ繝橸ｿｽ?�ｿｽ逕ｨ繧｢繧､繧ｳ繝ｳ逕ｻ�ｿｽ?-->
@@ -27,16 +27,21 @@
         <link rel="stylesheet" media="screen and (max-width:768px)" href="mb_style.css">
         <link rel="stylesheet" media="screen and (min-width:769px)" href="pc_style.css">
         <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        
     </head>
 
     <body>
         <!--ヘッダー-->
         <header class="wrap">
                 <h1 class="main">My roots</h1>
-                <img class="Rogo" id="Rogo" src="Rogo_white.png" alt="Rogo"/>
+                <!-- <div class="pc_rogo"></div> -->
+                <!-- <div class="mb_rogo"></div> -->
+                <img class="mb_rogo" id="mb_rogo" src="mb_Rogo.png" alt="Rogo"/> 
+                <img class="pc_rogo" id="pc_rogo" src="Rogo_white.png" alt="Rogo"/>
                 <div class="maintext">
                 <p>じぶんは様々な物からできている。<br>例えば、バイクで山道を走る爽快感<br>例えば、釣り竿がしなる快感<br>例えば、焚火を眺めるひととき<br>そんな趣味も自分を作る「ルーツ」の1つだ。<br>今こそ新しい自分を探す旅に出かけよう。</p>
                 </div>
+                
             <div class="next" id="next">
             <div class="next1"> 
                 <a href="second.html"><img class="nextpic" src="aikonn-1.png" alt="バイク&キャンプ" ></a>
@@ -49,31 +54,9 @@
             </div>
             </div>
 
-            <script type="text/javascript">
-                $(function() {
-     
-                // 一旦hide()で隠してフェードインさせる
-                $('#next')
-                    .hide()
-                    .fadeIn('slow');
-                });
-                </script>
-            <!-- ロゴを横からスライドイン -->
-            <script type="text/javascript">
-            $('#Rogo')
-                .css({
-                    'left':'-250%'
-                })
-                .animate({
-                    'left':'125%'
-                }, 1000)
-                .animate({
-                    'left':'17%'
-                }, 5000)
-            </script>
-            
+            <!-- <script src="js/pc_style.js"></script> -->
         </header>
-        <!-- 繝｡繧､繝ｳ繧ｳ繝ｳ繝�繝ｳ繝�--> 
+        <!-- メイン--> 
         <!-- <main class="main-content common-inner"> 
             <header class="section-header">
                 <img id="main" src="grom01.jpg" alt="繧ｰ繝ｭ繝�"> 
@@ -90,7 +73,8 @@
                     </p>
             </div>
         </main>-->
-        <footer>
+        <footer　class="foot">
+            
 
         </footer>
     </body>
